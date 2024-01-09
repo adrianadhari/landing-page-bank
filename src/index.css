@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply bg-color-secondary px-7 font-bold border-none py-3 rounded-md hover:opacity-80 ease-in duration-200
+}
+
+.card_btn {
+    @apply w-full px-9 py-3 bg-color-primary-dark rounded-md capitalize font-bold hover:bg-color-secondary ease-in duration-200;
+}
+
+.color-active {
+    @apply bg-color-primary-dark transition duration-300 ease-in
+}
+
+.home .img {
+    --animate-delay: 0.1s;
+}
+
+.home .btn {
+    --animate-delay: 0.8s;
+}
+
+.home h1 {
+    --animate-delay: 0.3s;
+}
+
+.home p {
+    --animate-delay: 0.5s;
+}
